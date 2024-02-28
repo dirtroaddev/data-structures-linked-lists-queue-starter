@@ -254,6 +254,7 @@ class DoublyLinkedList {
             prev = current; // Move prev to current node
             current = next; // Move to next node
         }
+        
         this.head = prev; // Update head to new first element
         // Write your hypothesis on the time complexity of this method here
     }
